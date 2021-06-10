@@ -10,7 +10,7 @@ This repository contains the code for the creation and analysis of the model pre
 [--normalize]   indicates whether truncated time distributions should be normalized.
 [--imputation]  indicates whether low-coverage and missing haplotypes should be imputed.
 ``` 
-The resulting model will be stored in `results/full_model`. The vaccination strategy simulations can be run via `run_vaccination_simulation.R`, which accepts the following command line arguments:
+The resulting model will be stored in `results/full_model`. The vaccination strategy simulations can be run via `run_vaccination_simulation.R`, which accepts the following command line arguments: 
 ```
 --model_name            (str) name of the outbreaker model.
 --sim_nr                (int) the number of the batch of simulations (for parallelising).
